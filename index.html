@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sketch</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>教育科技學系</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: white; /* 確保背景與 p5.js 畫布顏色一致 */
+    }
+    canvas {
+      display: block;
+      z-index: 1;
+    }
+    .text-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      z-index: 2;
+      user-select: none;
+    }
+    .title {
+      font-size: 80px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #f1d302; /* 鮮黃色 */
+      text-shadow: 2px 2px 0 #c1292e, 4px 4px 0 #235789;
+    }
+    .subtitle {
+      font-size: 40px;
+      color: #c1292e; /* 鮮紅色 */
+      text-shadow: 2px 2px 0 #f1d302;
+    }
+  </style>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+  <script src="sketch.js"></script>
+</head>
+<body>
+
+<div class="text-overlay">
+  <div class="title">教育科技學系</div>
+  <div class="subtitle">陳慶帆</div>
+</div>
+
+</body>
+</html>
